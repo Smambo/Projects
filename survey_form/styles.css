@@ -1,0 +1,69 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+    width: 60%;
+    height: 100vh;
+    position: relative;
+    border: 3px solid rgb(86, 104, 100);
+    border-radius: 15px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgrey;
+    color: antiquewhite;
+}
+
+.survey_purpose {
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.input {
+    padding: 15px;
+    text-align: center;
+}
+
+input {
+    width: 60%;
+    padding: 14px;
+    border: 3px solid rgb(86, 104, 100);
+    border-radius: 9px;
+}
+
+input[placeholder] {
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
+}
+
+input[type=radio] {
+    width: 50px;
+    height: 24px;
+    font-size: 15px;
+    font-weight: bold;
+    color: darkgrey;
+}
+.submit {
+    text-align: center;
+    padding: 15px;
+}
+
+button {
+    width: 30%;
+    padding: 8px;
+    border: 3px solid rgb(86, 104, 100);
+    border-radius: 9px;
+    color: antiquewhite;
+    background-color: rgb(86, 104, 100);
+}
+
+button:hover {
+    color: rgb(86, 104, 100);
+    background-color: antiquewhite;
+    border: 3px solid antiquewhite;
+    transition-duration: 0.4s;
+}
