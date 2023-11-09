@@ -28,7 +28,7 @@
 }
 
 input {
-    width: 60%;
+    width: 57%;
     padding: 14px;
     border: 3px solid rgb(86, 104, 100);
     border-radius: 9px;
@@ -46,6 +46,7 @@ input[type=radio] {
     font-size: 15px;
     font-weight: bold;
     color: darkgrey;
+    cursor: pointer;
 }
 .submit {
     text-align: center;
@@ -59,6 +60,7 @@ button {
     border-radius: 9px;
     color: antiquewhite;
     background-color: rgb(86, 104, 100);
+    cursor: pointer;
 }
 
 button:hover {
@@ -66,4 +68,28 @@ button:hover {
     background-color: antiquewhite;
     border: 3px solid antiquewhite;
     transition-duration: 0.4s;
+}
+
+.country {
+    width: 60%;
+    padding: 14px;
+    border: 3px solid rgb(86, 104, 100);
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
+}
+
+option[value] {
+    font-size: 15px;
+}
+
+.rating {
+    width: 60%;
+    padding: 14px;
+    border: 3px solid rgb(86, 104, 100);
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
 }

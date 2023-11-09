@@ -21,17 +21,27 @@
                     <input class="email" id="email" type="email" placeholder="Email address" />
                 </div>
                 <div class="input">
-                    <p>Rate your experience with our product (1 = poor and 5 = excellent)</p>
-                    <label>1</label>
-                    <input class="rating" id="rating" type="radio"  />
-                    <label>2</label>
-                    <input class="rating" id="rating" type="radio"  />
-                    <label>3</label>
-                    <input class="rating" id="rating" type="radio"  />
-                    <label>4</label>
-                    <input class="rating" id="rating" type="radio"  />
-                    <label>5</label>
-                    <input class="rating" id="rating" type="radio"  />
+                    <select name="country" class="country">
+                        <option>Country</option>
+                        <option value="south-africa">South Africa</option>
+                        <option value="lesotho">Lesotho</option>
+                        <option value="namibia">Namibia</option>
+                        <option value="madagascar">Madagascar</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="france">France</option>
+                        <option value="usa">United States of America</option>
+                        <option value="australia">Australia</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <select name="rating" class="rating">
+                        <option>Rate the service you recieved</option>
+                        <option value="1">Poor (1)</option>
+                        <option value="2">Decent (2)</option>
+                        <option value="3">Average (3)</option>
+                        <option value="4">Good (4)</option>
+                        <option value="5">Excellent (5)</option>
+                    </select>
                 </div>
                 <div class="submit">
                     <button>Submit</button>
