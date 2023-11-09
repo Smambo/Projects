@@ -1,5 +1,5 @@
 ## This is a simple implementation of a signup page.
-### The page is made up of `HTML` for the structure, `CSS` for the appearance and a bit of `JavaScript` for the responsiveness.
+### The page is made up of `HTML` for the structure, `CSS` for the appearance and a bit of `JavaScript` to make it dynamic.
 ### Below is how it looks in action:
 | Signup for new users                                                                                                                  | Sigin for existing users                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------------------- |  -------------------------------------------------------------------------------------------------------------------------------------|
