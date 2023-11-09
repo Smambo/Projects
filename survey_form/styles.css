@@ -4,12 +4,12 @@
 
 .container {
     width: 60%;
-    height: 100vh;
+    height: 80vh;
     position: relative;
     border: 3px solid rgb(86, 104, 100);
     border-radius: 15px;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 55px;
+    margin-bottom: 55px;
     margin-left: auto;
     margin-right: auto;
     background-color: darkgrey;
